@@ -9,3 +9,7 @@
 
 
 ddpm_gui_trae.py为TRAE生成，利用pyqt制作简易ui界面实现窗口交互。
+
+
+# 项目效果
+<img width="819" height="653" alt="屏幕截图 2025-08-20 135326" src="https://github.com/user-attachments/assets/771d5921-ccae-4183-8b3c-6f386d73abe1" />
