@@ -6,10 +6,10 @@ import yaml
 import numpy as np
 import logging
 
-from DDPM.src.dataset.ddpm_dataset import DDPMDataset
-from DDPM.src.model.unet import Unet
+from dataset.ddpm_dataset import DDPMDataset
+from model.unet import Unet
 from torch.utils.data.dataloader import DataLoader
-from DDPM.src.noise_scheduler.noise_scheduler import NoiseScheduler
+from noise_scheduler.noise_scheduler import NoiseScheduler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
