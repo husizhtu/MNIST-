@@ -8,8 +8,8 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
                              QLabel, QPushButton, QComboBox, QFileDialog, QMessageBox)
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtCore import Qt
-from DDPM.src.model.unet import Unet
-from DDPM.src.noise_scheduler.noise_scheduler import NoiseScheduler
+from model.unet import Unet
+from noise_scheduler.noise_scheduler import NoiseScheduler
 
 # 设置中文字体支持
 import matplotlib
