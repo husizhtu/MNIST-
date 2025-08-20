@@ -20,6 +20,7 @@ model_config:
   up_layers: 2
 
   num_heads: 4
+  # 注意力头个数
 
   down_sample: [ True, True, False ]
 
@@ -27,7 +28,10 @@ train_config:
   task_name: "ddpm_train"
   ckpt_name: "ddpm_ckpt.pth"
   num_samples: 1
+  # 控制最终生成图像数量
   lr: 0.0003
+  # 学习率
   num_epochs: 64
+  # 迭代次数
   batch_size: 96
   log_name: 'training.log'
