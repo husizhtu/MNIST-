@@ -5,8 +5,8 @@ import torch
 import tqdm
 import torchvision
 
-from DDPM.src.model.unet import Unet
-from DDPM.src.noise_scheduler.noise_scheduler import NoiseScheduler
+from model.unet import Unet
+from noise_scheduler.noise_scheduler import NoiseScheduler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
