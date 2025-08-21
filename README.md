@@ -4,6 +4,9 @@
 
 项目来源：https://space.bilibili.com/353555504?spm_id_from=333.337.0.0
 
+
+原项目github地址：https://github.com/Bluedotdot2021/DDPM-Live?tab=readme-ov-file
+
 # 数据准备
 修改create_data.py脚本对应参数，在dataset/data路径下生成train，test目录。
 
